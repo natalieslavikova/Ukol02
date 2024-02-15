@@ -7,8 +7,8 @@ Vytvořte webovou stránku, která požádá uživatele nejdříve o jeho křest
 Pomocí metody trim zajistěte, že ve jméně ani příjmení nebudou na začátku ani na konci žádné bílé znaky. 
 Pomocí metody slice vyřízněte ze jména i příjmení příslušné části. Pomocí interpolace řetězců sestavte výslednou adresu a vypište ji do stránky.*/
 
-const jmeno = prompt("Zadej jméno bez diakritiky")
-const prijmeni = prompt("Zadej příjmení bez diakritiky")
+const jmeno = prompt("Zadejte jméno bez diakritiky")
+const prijmeni = prompt("Zadejte příjmení bez diakritiky")
 
 const trimJmeno = (jmeno.trim())
 const toLowerCaseJmeno = trimJmeno.toLowerCase()
